@@ -111,8 +111,18 @@ img {
     margin-top: 2.5em;
 }
 
-.people-cards__card {
-    border: 2.5em;
+.people-cards__card:hover .people-cards__title,
+.people-cards__card:hover .people-cards__text {
+    color: #63c6ae;   
+}
+
+.people-cards__card:hover {
+    outline: 5px solid #63c6ae; /* Borda depois do elemento */
+    outline-offset: -5px; /* Valores positivos andam com a borda para fora do elemento. Já negativos, com a borda para dentro do elemento */
+}
+
+.people-cards__card:hover .people-cards__avatar img {
+    transform: translateY(-50%);
 }
 
 .people-cards__img {
@@ -135,6 +145,7 @@ img {
 .people-cards__title {
     color: #737c85;
     font-size: 21px;
+    font-weight: normal;
 }
 
 .people-cards__text {
