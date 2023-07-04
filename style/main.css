@@ -261,4 +261,20 @@ img {
     margin-top: 5em;
 }
 
+.footer {
+    background-color: #242a2c;
+    padding: 50px 0 250px;
+    color: #454e51;
+    font-size: 14px;
+}
 
+.footer__links li {
+    list-style: none;
+}
+
+.footer__links li a {
+    color: #454e51;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+}
