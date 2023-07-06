@@ -11,4 +11,12 @@
         toggleBtn: '.header__btnMenu',
         widthEnabled: 1024
     });
+
+    var carouselImgs = new Carousel({
+        container: '.laptop-slider .slideshow',
+        items: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    });
+
 })();
