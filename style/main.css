@@ -327,4 +327,8 @@ img {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
+
+    .latest-articles__thumbs {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }
