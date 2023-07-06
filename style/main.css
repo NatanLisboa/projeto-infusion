@@ -13,6 +13,7 @@ img {
     margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 980px;
 }
 
 .header {
@@ -312,5 +313,11 @@ img {
 
     .header__nav a {
         background: white;
+    }
+
+    .people-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
     }
 }
