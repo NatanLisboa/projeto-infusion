@@ -78,6 +78,10 @@ img {
     font-size: 14px;
 }
 
+.js .header__nav {
+    transition: max-height 1s;
+}
+
 .hero {
     height: 80vh;
     padding: 40px 20px;
