@@ -278,3 +278,39 @@ img {
     font-weight: 600;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .header {
+        position: fixed;
+    }
+
+    .logo-text {
+        width: 25%;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .header__btnMenu {
+        display: none;
+    }
+
+    .header__nav {
+        float: left;
+        width: 75%;
+        clear: none;
+    }
+
+    .header__nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__nav li {
+        border-bottom: none;
+        flex-grow: 1;
+    }
+
+    .header__nav a {
+        background: white;
+    }
+}
