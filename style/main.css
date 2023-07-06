@@ -281,6 +281,10 @@ img {
     text-decoration: none;
 }
 
+.footer__logo {
+    text-transform: uppercase;
+}
+
 @media screen and (min-width: 1024px) {
     .header {
         position: fixed;
@@ -331,4 +335,13 @@ img {
     .latest-articles__thumbs {
         grid-template-columns: repeat(6, 1fr);
     }
+
+    .footer .container {
+        display: flex;
+    }
+
+    .footer .container > * {
+        margin: 2em;
+    }
+
 }
