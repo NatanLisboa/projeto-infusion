@@ -19,4 +19,11 @@
         btnNext: '.next'
     });
 
+    var carouselQuotes = new Carousel({
+        container: '.quote-slideshow',
+        items: 'figure',
+        btnPrev: '.prev',
+        btnNext: '.next'
+    });
+
 })();
